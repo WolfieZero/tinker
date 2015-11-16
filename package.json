@@ -1,0 +1,14 @@
+{
+  "name": "tinker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --config \"./bs-config.js\""
+  },
+  "author": "Neil Sweeney <neil@wolfiezero.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.0"
+  }
+}
