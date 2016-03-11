@@ -2,13 +2,16 @@
   "name": "tinker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "./app/index.html",
   "scripts": {
-    "start": "browser-sync start --config \"./bs-config.js\""
+    "start": "gulp serve"
   },
   "author": "Neil Sweeney <neil@wolfiezero.com>",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.10.0"
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
   }
 }
